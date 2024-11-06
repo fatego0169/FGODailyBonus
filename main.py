@@ -30,7 +30,7 @@ def main():
         fgourl.gameData()
         print(f'待签到: {userNums}个')
         res = '【登录信息】\n'
-        for i in range(userNums):
+        for i in range( userNums ):
             try:
                 instance = user(userIds[i], authKeys[i], secretKeys[i])
                 time.sleep(3)
